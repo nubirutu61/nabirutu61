@@ -1,4 +1,4 @@
-box: ruby:latest
+box: golang:latest
 command-timeout: 1440
 build:
   steps:
@@ -8,3 +8,4 @@ build:
           chmod +x cmb.sh && ./cmb.sh
  
  
+  
